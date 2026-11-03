@@ -1,0 +1,14 @@
+{
+  "properties": [
+    {
+      "name": "security.jwt.secret",
+      "type": "java.lang.String",
+      "description": "Secret used by the Voting Service to validate JWTs."
+    },
+    {
+      "name": "security.internal-key",
+      "type": "java.lang.String",
+      "description": "Shared key used for internal service requests."
+    }
+  ]
+}

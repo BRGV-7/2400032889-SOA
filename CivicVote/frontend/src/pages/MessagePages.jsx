@@ -1,0 +1,3 @@
+import { Link } from 'react-router-dom'
+export function AccessDeniedPage() { return <div className="message-page"><span className="eyebrow">403 · ACCESS DENIED</span><h1>This area is restricted.</h1><p>Your account does not have permission to view this page.</p><Link className="button primary" to="/">Return to overview</Link></div> }
+export function NotFoundPage() { return <div className="message-page"><span className="eyebrow">404 · NOT FOUND</span><h1>We couldn't find that page.</h1><p>The link may have changed or the page may no longer exist.</p><Link className="button primary" to="/">Return to overview</Link></div> }

@@ -1,0 +1,9 @@
+{
+  "properties": [
+    {
+      "name": "security.jwt.secret",
+      "type": "java.lang.String",
+      "description": "Secret used by the Election Service to validate JWTs."
+    }
+  ]
+}
